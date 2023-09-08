@@ -1,0 +1,59 @@
+html {
+	background-color: rgb(255, 192, 220);
+	color: rgb(232, 55, 164);
+}
+
+html, body {
+	margin: 0px;
+	padding: 0px;
+	min-height: 100%;
+	height: 100%;
+}
+
+a {
+	color: rgb(153, 19, 101);
+}
+.active {
+	color: rgb(40, 130, 130);
+}
+
+.centered_element {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 900px;
+}
+
+#site_header {
+	padding-bottom: 5px;
+	border-bottom: 1px solid rgb(255, 0, 140);
+}
+
+#site_content_wrapper {
+	min-height: 100%;
+}
+
+#site_content_wrapper:after {
+	content: "";
+	display: block;
+}
+
+#site_content {
+	height: 100%;
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+#site_border {
+	border-bottom: 1px solid rgb(255, 0, 140);
+}
+#site_footer {
+	position: relative;
+	margin-top: 100px; /* positive value of footer height */
+	height: -100px;
+	padding-top: 10px;
+	clear: both;
+}
+
+.badges {
+	padding-top: 20px;
+}
