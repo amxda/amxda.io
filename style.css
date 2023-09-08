@@ -1,6 +1,7 @@
 :root {
     --primary-color: rgb(247, 164, 255);
 	--secondary-color: rgb(179, 0, 179);
+	--tertiary-color: rgb(115, 115, 115);
     --background-color: rgb(26, 26, 26);
 }  
 
@@ -54,7 +55,7 @@ body a:after {
 
 #site_header {
 	padding-bottom: 5px;
-	border-bottom: 1px solid var(--primary-color);
+	border-bottom: 1px solid var(--tertiary-color);
 }
 
 #site_content_wrapper {
@@ -73,7 +74,7 @@ body a:after {
 }
 
 #site_border {
-	border-bottom: 1px solid var(--primary-color);
+	border-bottom: 1px solid var(--tertiary-color);
 }
 
 #site_footer {
